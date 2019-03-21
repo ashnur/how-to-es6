@@ -11,7 +11,6 @@ module.exports = function(api) {
   ]
 
   const plugins = [
-    '@babel/plugin-transform-modules-commonjs',
     '@babel/proposal-class-properties',
     '@babel/plugin-proposal-object-rest-spread',
   ]

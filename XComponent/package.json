@@ -1,16 +1,14 @@
 {
-  "name": "es6-components",
+  "name": "xcomponent",
   "version": "1.0.0",
   "description": "",
   "module": "index.js",
+  "main": "bundle.js",
   "scripts": {
     "build": "browserify index.js -o bundle.js --standalone XComponent -p esmify -t babelify"
   },
   "dependencies": {
-    "date-fns": "^2.0.0-alpha.27",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-imask": "^4.1.5"
+    "date-fns": "^2.0.0-alpha.27"
   },
   "devDependencies": {
     "@babel/helper-regex": "^7.0.0",
@@ -19,11 +17,8 @@
     "@babel/preset-env": "^7.3.4",
     "@babel/preset-react": "^7.0.0",
     "babelify": "^10.0.0",
-    "browserify-css": "^0.14.0",
-    "budo": "^11.6.1",
-    "cypress": "^3.2.0",
-    "esmify": "^2.1.1",
-    "tinyify": "^2.5.0"
+    "browserify": "^16.2.3",
+    "esmify": "^2.1.1"
   },
   "keywords": [],
   "author": "",
